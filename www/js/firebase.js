@@ -72,7 +72,7 @@ if (area != null && zone != null && sector != null)
                         const color = getGradeColor(piece)
                         let obj = `<span style="color:${color}">${piece}</span>`;
                         if (pieces.length - p > 1)
-                            obj += "/"
+                            obj += `<span style="color:#666666">/</span>`;
                         builder += obj;
                     }
                 return builder;
