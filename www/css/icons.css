@@ -1,0 +1,70 @@
+.eaic-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+}
+
+.eaic-icon.buril:after {
+    content: url("../icons/Buril.svg");
+}
+
+.eaic-icon.chain_carabiner:after {
+    content: url("../icons/chain_carabiner.svg");
+}
+
+.eaic-icon.chain_ring:after {
+    content: url("../icons/chain_ring.svg");
+}
+
+.eaic-icon.nail:after {
+    content: url("../icons/Clau.svg");
+}
+
+.eaic-icon.lanyard:after {
+    content: url("../icons/Parabolt.svg");
+}
+
+.eaic-icon.cracker:after {
+    content: url("../icons/Empotrador.svg");
+}
+
+.eaic-icon.strips:after {
+    content: url("../icons/Estrips.svg");
+}
+
+.eaic-icon.express:after {
+    content: url("../icons/Express.svg");
+}
+
+.eaic-icon.friend:after {
+    content: url("../icons/Friend.svg");
+}
+
+.eaic-icon.parabolt {
+    content: url("../icons/Parabolt.svg");
+}
+
+.eaic-icon.piton:after {
+    content: url("../icons/piton.svg");
+}
+
+.eaic-icon.plate:after {
+    content: url("../icons/plate.svg");
+}
+
+.eaic-icon.plate_lanyard:after {
+    content: url("../icons/plate_lanyard.svg");
+}
+
+.eaic-icon.plate_ring:after {
+    content: url("../icons/plate_ring.svg");
+}
+
+.eaic-icon.tensor:after {
+    content: url("../icons/Quimic.svg");
+}
+
+.eaic-icon.spit:after {
+    content: url("../icons/Spit.svg");
+}
