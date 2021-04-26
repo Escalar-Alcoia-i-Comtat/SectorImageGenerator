@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Segoe UI Semibold';
+    src: url("font/seguisb.ttf");
+}
+
+@font-face {
+    font-family: 'Segoe UI Semilight';
+    src: url("font/segoeuisl.ttf");
+}
+
+html {
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th {
+    font-family: 'Segoe UI Semibold', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: #000000;
+
+    text-align: start;
+
+    border-bottom: solid 2px #db8a17;
+    border-left: none 0;
+    border-right: none 0;
+}
+
+table td {
+    font-family: 'Segoe UI Semilight', sans-serif;
+    font-size: 21px;
+
+    padding: 4px;
+
+    border-bottom: solid 0.625pt #db8a17;
+}
+
+/* Path number  */
+table td:nth-of-type(1) {
+    width: 3vw;
+
+    font-weight: 600;
+
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+/* Path name  */
+table td:nth-of-type(2) {
+    width: 47vw;
+    font-weight: 500;
+}
+
+/* Path grade  */
+table td:nth-of-type(3) {
+    width: 10vw;
+    font-weight: 500;
+}
+
+/* Path safes  */
+table td:nth-of-type(4) {
+    width: 30vw;
+    font-weight: 500;
+}
+
+/* Path height  */
+table td:nth-of-type(5) {
+    width: 5vw;
+    font-weight: 500;
+}
+
+/* Path ending  */
+table td:nth-of-type(6) {
+    width: 5vw;
+    font-weight: 500;
+}
