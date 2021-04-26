@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6.6337 15.0146">
+    <title>Clau</title>
+    <g id="Capa_2" data-name="Capa 2">
+        <g id="Capa_1-2" data-name="Capa 1">
+            <path d="M2.615.4047c.85-.2834,1.9276.652,2.4378,2.0977s.2551,2.863-.5669,3.1464S2.5583,5.0252,2.0481,3.58,1.793.7166,2.615.4047Z"
+                  fill="#c4c5c4" stroke="#c4c5c4" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <polygon points="0.347 0.66 1.51 0.15 6.47 11.602 5.308 12.112 0.347 0.66" fill="#ededec" stroke="#ededec"
+                     stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <path d="M2.4166.4047c.85-.2834,1.9276.652,2.4378,2.0977.5386,1.4457.2551,2.863-.5669,3.1464S2.36,5.0252,1.85,3.58,1.5946.7166,2.4166.4047Z"
+                  fill="#151515" stroke="#151515" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <polygon points="0.149 0.66 1.311 0.15 6.272 11.602 5.11 12.112 0.149 0.66" fill="#151515" stroke="#151515"
+                     stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <path d="M2.7,1.2268c.5952-.1984,1.3889.4535,1.7291,1.474.3685,1.02.1984,2.0126-.3968,2.2394-.5953.1984-1.3607-.4536-1.7292-1.474s-.17-2.041.3969-2.2394Z"
+                  fill="#d5cee5" stroke="#ededec" stroke-miterlimit="10" stroke-width="0.5102" fill-rule="evenodd"/>
+            <polygon points="6.498 11.602 6.328 13.104 6.158 14.578 5.648 13.387 5.11 12.225 5.818 11.913 6.498 11.602"
+                     fill="#ededec" stroke="#ededec" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <path d="M2.5867,1.1134c.5669-.1984,1.3606.4535,1.7008,1.474.3685,1.02.1984,2.041-.3969,2.2394S2.53,4.3732,2.1615,3.3528s-.17-2.0126.4252-2.2394Z"
+                  fill="#fff" fill-rule="evenodd"/>
+            <polygon points="6.272 11.602 6.13 12.849 5.988 14.096 5.563 13.104 5.11 12.112 5.705 11.857 6.272 11.602"
+                     fill="#151515" stroke="#151515" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+        </g>
+    </g>
+</svg>

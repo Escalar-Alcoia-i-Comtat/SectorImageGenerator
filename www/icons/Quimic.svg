@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.5737 14.912">
+    <title>Químic</title>
+    <g id="Capa_2" data-name="Capa 2">
+        <g id="Capa_1-2" data-name="Capa 1">
+            <polygon points="4.624 4.173 6.07 4.797 2.243 13.981 0.769 13.386 4.624 4.173" fill="#696867"
+                     stroke="#696867" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <polygon points="0.712 13.471 1.392 13.754 2.073 14.038 1.137 14.378 0.202 14.718 0.457 14.094 0.712 13.471"
+                     fill="#696867" stroke="#696867" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <path d="M6.5515,1.4234C7.8838,1.99,8.8759,2.8408,8.4791,3.72A2.8612,2.8612,0,0,1,5.1058,5.0234a2.949,2.949,0,0,1-1.474-3.3448C4,.8,5.2192.8565,6.5515,1.4234"
+                  fill="none" stroke="#696867" stroke-miterlimit="10" stroke-width="2.0126"/>
+            <path d="M2.13,12.11a.2205.2205,0,0,1,.1133.3118.2525.2525,0,0,1-.3118.1417.236.236,0,0,1-.085-.3118c.0567-.1417.1984-.1984.2835-.1417Z"
+                  fill="#afafb0" stroke="#afafb0" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <path d="M2.6113,10.9762a.2543.2543,0,0,1,.0851.34.2118.2118,0,0,1-.2835.1417A.2383.2383,0,0,1,2.3,11.1463a.2705.2705,0,0,1,.3118-.17Z"
+                  fill="#afafb0" stroke="#afafb0" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <path d="M3.0082,10.0124a.2624.2624,0,0,1,.1134.34.2524.2524,0,0,1-.3118.1417.2707.2707,0,0,1,.1984-.4819Z"
+                  fill="#afafb0" stroke="#afafb0" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+        </g>
+    </g>
+</svg>

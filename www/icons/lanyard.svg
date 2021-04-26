@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.94 14.9048">
+    <title>Cordí</title>
+    <g id="Capa_2" data-name="Capa 2">
+        <g id="Capa_1-2" data-name="Capa 1">
+            <path d="M.7566.4107C1.522-.0145,3.818,2.82,5.9157,6.7036s3.1748,7.37,2.4094,7.7953c-.7653.3969-3.09-2.4094-5.159-6.3212C1.0684,4.2942-.0088.8076.7566.4107"
+                  fill="none" stroke="#afafb0" stroke-miterlimit="10" stroke-width="0.737"/>
+            <path d="M3.79,7.384a.2286.2286,0,0,1-.0851.2551l-1.2472.5953a.1786.1786,0,0,1-.2268-.0851.1946.1946,0,0,1,.0851-.2551l1.2189-.5953A.2153.2153,0,0,1,3.79,7.384Z"
+                  fill="#afafb0" stroke="#afafb0" stroke-miterlimit="10" stroke-width="0.737" fill-rule="evenodd"/>
+            <path d="M3.9314,7.7241a.168.168,0,0,1-.085.2551l-1.2189.5953a.2285.2285,0,0,1-.2551-.085.2285.2285,0,0,1,.085-.2551l1.2472-.567a.1485.1485,0,0,1,.2268.0567Z"
+                  fill="#afafb0" stroke="#afafb0" stroke-miterlimit="10" stroke-width="0.737" fill-rule="evenodd"/>
+            <path d="M4.0448,8.0926a.1568.1568,0,0,1-.085.2268l-1.2189.5953A.1867.1867,0,0,1,2.4857,8.83a.1785.1785,0,0,1,.0851-.2267L3.818,8.0076a.1568.1568,0,0,1,.2268.085Z"
+                  fill="#afafb0" stroke="#afafb0" stroke-miterlimit="10" stroke-width="0.737" fill-rule="evenodd"/>
+            <path d="M4.1015,8.4328a.1789.1789,0,0,1-.0567.2551l-1.2473.5953a.2286.2286,0,0,1-.2551-.0851.2286.2286,0,0,1,.0851-.2551l1.2472-.5669a.1484.1484,0,0,1,.2268.0567Z"
+                  fill="#afafb0" stroke="#afafb0" stroke-miterlimit="10" stroke-width="0.737" fill-rule="evenodd"/>
+            <polyline points="3.364 7.667 3.308 7.469 3.251 7.412 3.279 7.384 3.279 7.327 3.308 7.129" fill="none"
+                      stroke="#afafb0" stroke-miterlimit="10" stroke-width="0.737"/>
+            <path d="M3.3078,7.1288c.0283-.0283,0-.1133,0-.2267" fill="none" stroke="#afafb0" stroke-miterlimit="10"
+                  stroke-width="0.737"/>
+            <polyline points="3.308 6.902 3.336 6.845 3.336 6.675 3.364 6.619 3.393 6.59 3.421 6.505 3.421 6.477"
+                      fill="none" stroke="#afafb0" stroke-miterlimit="10" stroke-width="0.737"/>
+            <path d="M3.4212,6.4769c.0567-.0284.0567-.1134.1134-.17" fill="none" stroke="#afafb0" stroke-miterlimit="10"
+                  stroke-width="0.737"/>
+            <polyline
+                    points="2.996 8.971 3.109 9.056 3.081 9.085 3.109 9.113 3.081 9.141 3.109 9.17 3.138 9.198 3.109 9.198 3.138 9.226 3.109 9.255 3.138 9.312 3.109 9.34 3.109 9.368 3.053 9.51"
+                    fill="none" stroke="#afafb0" stroke-miterlimit="10" stroke-width="0.737"/>
+            <path d="M3.0527,9.51a.17.17,0,0,0-.0284.1134c-.0567.0284-.085.1985-.1134.2551" fill="none" stroke="#afafb0"
+                  stroke-miterlimit="10" stroke-width="0.737"/>
+            <polyline points="2.911 9.878 2.854 9.907 2.826 9.935 2.826 9.963 2.798 9.992" fill="none" stroke="#afafb0"
+                      stroke-miterlimit="10" stroke-width="0.737"/>
+            <path d="M2.7975,9.9918c-.0566.0567-.1133.1418-.17.1985" fill="none" stroke="#afafb0" stroke-miterlimit="10"
+                  stroke-width="0.737"/>
+            <path d="M.6149.4107C1.38-.0145,3.6763,2.82,5.7739,6.7036s3.1748,7.37,2.41,7.7953c-.7654.3969-3.09-2.4094-5.1591-6.3212C.9267,4.2942-.15.8076.6149.4107"
+                  fill="none" stroke="#151515" stroke-miterlimit="10" stroke-width="0.737"/>
+            <path d="M3.6763,7.3556a.1786.1786,0,0,1-.0851.2268L2.344,8.1777a.1568.1568,0,0,1-.2268-.0851.1427.1427,0,0,1,.0851-.2267l1.2189-.5953a.1947.1947,0,0,1,.2551.085Z"
+                  fill="#151515" stroke="#151515" stroke-miterlimit="10" stroke-width="0.737" fill-rule="evenodd"/>
+            <path d="M3.818,7.6958a.1567.1567,0,0,1-.085.2267l-1.2189.5953a.168.168,0,0,1-.2551-.085.19.19,0,0,1,.085-.2268l1.2472-.5953a.1785.1785,0,0,1,.2268.0851Z"
+                  fill="#151515" stroke="#151515" stroke-miterlimit="10" stroke-width="0.737" fill-rule="evenodd"/>
+            <path d="M3.9314,8.0359a.1867.1867,0,0,1-.085.2551l-1.2473.5953a.19.19,0,0,1-.2267-.085.2285.2285,0,0,1,.085-.2551l1.2472-.5953a.1785.1785,0,0,1,.2268.085Z"
+                  fill="#151515" stroke="#151515" stroke-miterlimit="10" stroke-width="0.737" fill-rule="evenodd"/>
+            <path d="M3.9881,8.4044a.1427.1427,0,0,1-.085.2268l-1.2189.5953a.1682.1682,0,0,1-.2552-.0851.19.19,0,0,1,.0851-.2267l1.2472-.5953a.1785.1785,0,0,1,.2268.085Z"
+                  fill="#151515" stroke="#151515" stroke-miterlimit="10" stroke-width="0.737" fill-rule="evenodd"/>
+            <polyline points="3.251 7.611 3.166 7.441 3.138 7.356 3.166 7.327 3.166 7.299 3.194 7.1" fill="none"
+                      stroke="#151515" stroke-miterlimit="10" stroke-width="0.737"/>
+            <path d="M3.1944,7.1005c.0283-.0283,0-.1417,0-.2268" fill="none" stroke="#151515" stroke-miterlimit="10"
+                  stroke-width="0.737"/>
+            <polyline points="3.194 6.874 3.194 6.789 3.223 6.619 3.251 6.59 3.279 6.562 3.308 6.477 3.308 6.449"
+                      fill="none" stroke="#151515" stroke-miterlimit="10" stroke-width="0.737"/>
+            <path d="M3.3078,6.4485c.0567-.0567.0567-.1417.1134-.17" fill="none" stroke="#151515" stroke-miterlimit="10"
+                  stroke-width="0.737"/>
+            <polyline
+                    points="2.883 8.943 2.996 9.028 2.968 9.056 2.996 9.085 2.968 9.113 2.996 9.113 3.024 9.141 2.996 9.17 3.024 9.198 2.996 9.226 3.024 9.255 2.996 9.283 2.996 9.34 2.939 9.482"
+                    fill="none" stroke="#151515" stroke-miterlimit="10" stroke-width="0.737"/>
+            <path d="M2.9393,9.4816c-.0284,0-.0284.0567-.0284.085-.0567.0567-.085.1985-.1417.2552" fill="none"
+                  stroke="#151515" stroke-miterlimit="10" stroke-width="0.737"/>
+            <polyline points="2.769 9.822 2.741 9.878 2.713 9.907 2.684 9.935 2.684 9.963" fill="none" stroke="#151515"
+                      stroke-miterlimit="10" stroke-width="0.737"/>
+            <path d="M2.6842,9.9635l-.17.17" fill="none" stroke="#151515" stroke-miterlimit="10" stroke-width="0.737"/>
+        </g>
+    </g>
+</svg>

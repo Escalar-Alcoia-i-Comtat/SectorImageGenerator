@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.5174 14.5256">
+    <title>Empotrador</title>
+    <g id="Capa_2" data-name="Capa 2">
+        <g id="Capa_1-2" data-name="Capa 1">
+            <polygon points="5.886 0.539 7.417 1.191 6.283 3.884 4.752 3.232 5.886 0.539" fill="#ededec"
+                     stroke="#ededec" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <polygon points="5.007 0.171 5.433 0.369 5.886 0.539 5.319 1.9 4.752 3.232 4.866 1.702 5.007 0.171"
+                     fill="#ededec" stroke="#ededec" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <polygon points="6.283 3.884 6.85 2.552 7.445 1.191 7.87 1.39 8.324 1.56 7.303 2.722 6.283 3.884"
+                     fill="#ededec" stroke="#ededec" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <path d="M2.768,13.437a1.2073,1.2073,0,0,1-1.6158.5953,1.2221,1.2221,0,0,1-.68-1.5874" fill="none"
+                  stroke="#696867" stroke-miterlimit="10" stroke-width="0.7654"/>
+            <path d="M4.3554,5.84l.3968.17a.207.207,0,0,1,.1134.2834L4.2987,7.6543a.2071.2071,0,0,1-.2835.1134l-.3968-.17a.21.21,0,0,1-.1134-.2552l.5669-1.3889A.2321.2321,0,0,1,4.3554,5.84Z"
+                  fill="#efd2a9" stroke="#efd2a9" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <line x1="0.4436" y1="12.5016" x2="3.6184" y2="7.5977" fill="none" stroke="#818181" stroke-miterlimit="10"
+                  stroke-width="0.7654"/>
+            <line x1="2.768" y1="13.4654" x2="3.8452" y2="7.626" fill="none" stroke="#696867" stroke-miterlimit="10"
+                  stroke-width="0.7654"/>
+            <path d="M6.6515.5394c.3968.17.51.7937.2551,1.389s-.7937.9637-1.1906.7937-.51-.7937-.2551-1.389C5.716.71,6.2546.3693,6.6515.5394"
+                  fill="none" stroke="#696867" stroke-miterlimit="10" stroke-width="0.7654"/>
+            <line x1="4.327" y1="5.8969" x2="5.3475" y2="3.4591" fill="none" stroke="#818181" stroke-miterlimit="10"
+                  stroke-width="0.7654"/>
+            <line x1="4.5255" y1="5.9536" x2="5.5459" y2="3.5158" fill="none" stroke="#696867" stroke-miterlimit="10"
+                  stroke-width="0.7654"/>
+            <polygon points="5.716 0.596 7.247 1.248 6.113 3.941 4.582 3.289 5.716 0.596" fill="#d8d9d9"
+                     stroke="#d8d9d9" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <polygon points="4.809 0.199 5.262 0.398 5.716 0.596 5.149 1.928 4.582 3.289 4.696 1.73 4.809 0.199"
+                     fill="#d8d9d9" stroke="#d8d9d9" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <polygon points="6.113 3.941 6.68 2.58 7.247 1.248 7.7 1.418 8.154 1.617 7.133 2.779 6.113 3.941"
+                     fill="#d8d9d9" stroke="#d8d9d9" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+            <path d="M4.242,5.84l.3969.17a.232.232,0,0,1,.1133.2834L4.1853,7.6543a.207.207,0,0,1-.2834.1134l-.3969-.17c-.1134-.0567-.17-.17-.1134-.2552l.5669-1.3889A.2321.2321,0,0,1,4.242,5.84Z"
+                  fill="#c29061" stroke="#c29061" stroke-miterlimit="10" stroke-width="0.2268" fill-rule="evenodd"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24.000001 23.999999"
+        version="1.1"
+        id="svg14"
+        sodipodi:docname="Buril.svg"
+        width="24"
+        height="24"
+        inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+          id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+              rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+                rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title>Buril</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+          id="defs18"/>
+  <sodipodi:namedview
+          pagecolor="#ffffff"
+          bordercolor="#666666"
+          borderopacity="1"
+          objecttolerance="10"
+          gridtolerance="10"
+          guidetolerance="10"
+          inkscape:pageopacity="0"
+          inkscape:pageshadow="2"
+          inkscape:window-width="640"
+          inkscape:window-height="480"
+          id="namedview16"
+          showgrid="false"
+          inkscape:zoom="23.333808"
+          inkscape:cx="11.258915"
+          inkscape:cy="10.821208"
+          inkscape:current-layer="svg14"/>
+  <title
+          id="title2">Buril
+  </title>
+  <g
+          id="Capa_2"
+          data-name="Capa 2"
+          transform="matrix(0.96448067,0,0,0.96448067,6.2856271,5.3737493)">
+    <g
+            id="Capa_1-2"
+            data-name="Capa 1">
+      <polygon
+              points="9.478,6.129 2.946,13.328 0.126,11.002 5.953,3.221 "
+              id="polygon4"
+              style="fill:#ffffff;fill-rule:evenodd"/>
+      <path
+              d="M 7.5753,4.93 4.2709,2.2034 A 4.4024,4.4024 0 0 1 10.4468,1.4491 4.4024,4.4024 0 0 1 10.88,7.6556 Z"
+              stroke-miterlimit="22.9256"
+              id="path6"
+              inkscape:connector-curvature="0"
+              style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.21600001;stroke-miterlimit:22.92560005"/>
+      <polygon
+              points="9.351,5.729 2.82,12.928 0,10.602 5.827,2.821 "
+              id="polygon8"
+              style="fill:#381e0c;fill-rule:evenodd"/>
+      <path
+              d="M 7.4491,4.5292 4.1448,1.8032 a 4.4025,4.4025 0 0 1 6.1758,-0.7546 4.4026,4.4026 0 0 1 0.4329,6.2067 z"
+              stroke-miterlimit="22.9256"
+              id="path10"
+              inkscape:connector-curvature="0"
+              style="fill:#381e0c;fill-rule:evenodd;stroke:#1b1b1b;stroke-width:0.21600001;stroke-miterlimit:22.92560005"/>
+    </g>
+  </g>
+</svg>

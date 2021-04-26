@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        version="1.1"
+        id="svg10"
+        sodipodi:docname="Reunio neta inclinada.svg"
+        width="24"
+        height="24"
+        inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+          id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+              rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+                rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title>Reunio neta inclinada</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+          id="defs14"/>
+  <sodipodi:namedview
+          pagecolor="#ffffff"
+          bordercolor="#666666"
+          borderopacity="1"
+          objecttolerance="10"
+          gridtolerance="10"
+          guidetolerance="10"
+          inkscape:pageopacity="0"
+          inkscape:pageshadow="2"
+          inkscape:window-width="640"
+          inkscape:window-height="480"
+          id="namedview12"
+          showgrid="false"
+          inkscape:zoom="11.653918"
+          inkscape:cx="-0.55775233"
+          inkscape:cy="10.12535"
+          inkscape:current-layer="svg10"/>
+  <title
+          id="title2">Reunio neta inclinada
+  </title>
+  <g
+          id="Capa_2"
+          data-name="Capa 2"
+          transform="translate(2,1.7493)">
+    <g
+            id="Capa_1-2"
+            data-name="Capa 1">
+      <circle
+              cx="10.1254"
+              cy="10.1254"
+              r="8.625"
+              stroke-miterlimit="22.9256"
+              id="circle4"
+              style="fill:#bf0811;stroke:#1d1b1f;stroke-width:3;stroke-miterlimit:22.92560005"/>
+      <line
+              x1="16.3645"
+              y1="16.066299"
+              x2="4.2235999"
+              y2="3.8382001"
+              stroke-miterlimit="22.9256"
+              id="line6"
+              style="fill:none;stroke:#1d1b1f;stroke-width:3;stroke-miterlimit:22.92560005"/>
+    </g>
+  </g>
+</svg>
