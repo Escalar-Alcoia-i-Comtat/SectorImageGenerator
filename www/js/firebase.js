@@ -1,45 +1,43 @@
-const firebaseConfig = {
-    apiKey: "AIzaSyB7ADMgL0XyV4dfbHxxTnsMFXIHZh1DQSo",
-    authDomain: "escalaralcoiaicomtat.firebaseapp.com",
-    databaseURL: "https://escalaralcoiaicomtat.firebaseio.com",
-    projectId: "escalaralcoiaicomtat",
-    storageBucket: "escalaralcoiaicomtat.appspot.com",
-    messagingSenderId: "532137251314",
-    appId: "1:532137251314:web:985a0745bd90ac8cd01b6b",
-    measurementId: "G-49HGMS07LW"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-firebase.analytics();
+(() => {
+    // http://arnyminerz.com:3000/api/data/Sectors/0hk1PdLsYwx0DjVKlpRq
+    const contentTable = document.getElementById('content');
 
-const db = firebase.firestore();
+    const parsed_qs = getUrlParameters();
+    const sectorParam = parsed_qs['sector']
+    const splitPathParam = parsed_qs.hasOwnProperty('path') ? parsed_qs['path'].split('/') : null;
 
-const query_string = window.location.search.substring(1);
-const parsed_qs = parse_query_string(query_string);
-const area = parsed_qs.area
-const zone = parsed_qs.zone
-const sector = parsed_qs.sector
+    const sector = sectorParam != null ? sectorParam :
+        splitPathParam.includes("Sectors") ? splitPathParam[splitPathParam.length - 1] : null;
 
-console.log("area:", area, "zone:", zone, "sector:", sector)
+    console.log("sector:", sector);
 
-// Sample: &area=PL5j43cBRP7F24ecXGOR&zone=3DmHnKBlDRwqlH1KK85C&sector=B9zNqbw6REYVxGZxlYwh
-if (area != null && zone != null && sector != null)
-    db.collection("Areas")
-        .doc(area)
-        .collection("Zones")
-        .doc(zone)
-        .collection("Sectors")
-        .doc(sector)
-        .collection("Paths")
-        .orderBy("sketchId")
-        .get().then((querySnapshot) => {
-        const contentTable = document.getElementById('content');
-        querySnapshot.forEach((doc) => {
-            const data = doc.data();
+    // Sample: &area=PL5j43cBRP7F24ecXGOR&zone=3DmHnKBlDRwqlH1KK85C&sector=B9zNqbw6REYVxGZxlYwh
+    if (sector != null) {
+        /**
+         * @type {{sketchId:number,displayName:string,processedGrade:string,safes:string,height:string,ending:string}[]}
+         */
+        const resultList = [];
+
+        document.title = `Sector View - ${sector}`;
+
+        const jsonRaw = httpGet(`https://api.escalaralcoiaicomtat.org/api/list/Paths/${sector}`);
+        /**
+         * @type {{result:Object.<string,Object>}}
+         */
+        const json = JSON.parse(jsonRaw);
+        const resultJson = json.result;
+        const objectIds = Object.keys(resultJson);
+
+        for (const objectId in objectIds) {
+            /**
+             * @type {{builtBy:string,burilCount:number,crackerRequired:boolean,created:string,description:string|null,displayName:string,ending:string|null,friendRequired:boolean,grade:string|null,height:string|null,lanyardRequired:boolean,last_edit:string,nailRequired:boolean,paraboltCount:number,pitch_info:string|null,pitonCount:number,pitonRequired:boolean,rebuilders:string|null,sector:string,showDescription:boolean,sketchId:number,spitCount:int,stringCount:int,stripsRequired:boolean,tensorCount:number}}
+             */
+            const data = Object.values(resultJson)[objectId];
+
+            console.log(objectId, '=>', data);
+
             const heightData = data.height;
             const endingData = data.ending;
-
-            console.log(`${doc.id} =>`, data);
 
             const safeDisplay = function (count, stringsCount, icon) {
                 if (count > 0)
@@ -47,8 +45,8 @@ if (area != null && zone != null && sector != null)
                 return ""
             }
             const getGradeColor = function (grade) {
-                if (grade.substr(0, 1) === "L")
-                    return this(grade.substr(3));
+                if (grade.substring(0, 1) === "L")
+                    return this(grade.substring(3));
 
                 let gradeColor = "#222222";
                 if (grade[0] === "A")
@@ -87,13 +85,31 @@ if (area != null && zone != null && sector != null)
                 safeDisplay(data.tensorCount, data.stringCount, "tensor");
             const processedGrade = processGrade(data.grade);
 
-            contentTable.innerHTML += `<tr>
-        <td>${data.sketchId}</td>
-        <td>${data.displayName}</td>
-        <td>${processedGrade}</td>
-        <td>${safes}</td>
-        <td>${height}</td>
-        <td>${ending}</td>
-    </tr>`;
+            resultList.push({
+                sketchId: data.sketchId,
+                displayName: data.displayName,
+                processedGrade,
+                safes,
+                height,
+                ending
+            });
+        }
+
+        resultList.sort((a, b) => a.sketchId - b.sketchId);
+
+        resultList.forEach((item) => {
+            contentTable.innerHTML +=
+                `<tr>
+                    <td>${item.sketchId}</td>
+                    <td>${item.displayName}</td>
+                    <td>${item.processedGrade}</td>
+                    <td>${item.safes}</td>
+                    <td>${item.height}</td>
+                    <td>${item.ending}</td>
+                </tr>`;
         });
-    });
+    } else {
+        document.title = "Invalid request";
+        document.body.innerHTML = "Invalid request";
+    }
+})();
