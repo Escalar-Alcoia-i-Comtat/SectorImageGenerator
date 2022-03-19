@@ -1,0 +1,1 @@
+Invoke-Expression -Command "firebase deploy --only hosting:eaic-images"
