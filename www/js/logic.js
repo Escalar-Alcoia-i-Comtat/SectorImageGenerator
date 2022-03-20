@@ -34,10 +34,9 @@
              */
             const data = Object.values(resultJson)[objectId];
 
-            console.log(objectId, '=>', data);
-
-            const heightData = data.height;
-            const endingData = data.ending;
+            const heightData = parseMultiPitch(data.height);
+            const endingData = parseMultiPitch(data.ending);
+            const gradeData = parseMultiPitch(data.grade);
 
             const safeDisplay = function (count, stringsCount, icon) {
                 if (count > 0)
@@ -76,14 +75,14 @@
                 return builder;
             }
 
-            const height = heightData.length > 0 ? heightData[0] + " m" : "";
-            const ending = endingData.length > 0 ? `<span class="eaic-icon ${endingData[0]}"></span>` : "";
+            const height = heightData.general != null ? heightData.general + " m" : "";
+            const ending = endingData.general != null ? `<span class="eaic-icon ${endingData.general}"></span>` : "";
             const safes = safeDisplay(data.burilCount, data.stringCount, "buril") +
                 safeDisplay(data.paraboltCount, data.stringCount, "parabolt") +
                 safeDisplay(data.pitonCount, data.stringCount, "piton") +
                 safeDisplay(data.spitCount, data.stringCount, "spit") +
                 safeDisplay(data.tensorCount, data.stringCount, "tensor");
-            const processedGrade = processGrade(data.grade);
+            const processedGrade = processGrade(gradeData.general);
 
             resultList.push({
                 sketchId: data.sketchId,
