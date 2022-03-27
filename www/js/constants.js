@@ -44,7 +44,7 @@ const GRADE_COLOR_A = "#dbde26";
  * @since 20220327
  * @type {string}
  */
-const BACKEND_SERVER = "server.escalaralcoiaicomtat.org:3000";
+const BACKEND_SERVER = "server.escalaralcoiaicomtat.org";
 
 /**
  * The http protocol to use for the backend server.
@@ -52,4 +52,4 @@ const BACKEND_SERVER = "server.escalaralcoiaicomtat.org:3000";
  * @since 20220327
  * @type {string}
  */
-const BACKEND_PROTOCOL = PROTOCOL_HTTP;
+const BACKEND_PROTOCOL = PROTOCOL_HTTPS;
