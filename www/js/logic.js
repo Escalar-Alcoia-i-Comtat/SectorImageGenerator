@@ -20,7 +20,7 @@
 
         document.title = `Sector View - ${sector}`;
 
-        const jsonRaw = httpGet(`https://api.escalaralcoiaicomtat.org/api/list/Paths/${sector}`);
+        const jsonRaw = httpGet(`${BACKEND_PROTOCOL}${BACKEND_SERVER}/api/list/Paths/${sector}`);
         /**
          * @type {{result:Object.<string,Object>}}
          */
