@@ -1,0 +1,1 @@
+Invoke-Expression -Command "firebase emulators:start"
