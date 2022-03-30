@@ -15,7 +15,7 @@
         // Sample: &area=PL5j43cBRP7F24ecXGOR&zone=3DmHnKBlDRwqlH1KK85C&sector=B9zNqbw6REYVxGZxlYwh
         if (sector != null) {
             /**
-             * @type {{sketchId:number,displayName:string,processedGrade:string,safes:string,height:string,ending:string}[]}
+             * @type {{sketchId:number,displayName:string,processedGrade:string,safes:string,height:string,ending:string,builtBy:string}[]}
              */
             const resultList = [];
 
@@ -95,9 +95,13 @@
                     safeDisplay(data.tensorCount, data.stringCount, "tensor");
                 const processedGrade = processGrade(gradeData.general);
 
+                let builtBy = data.builtBy;
+                builtBy = builtBy !== 'NULL' ? builtBy.replace(';', ' ') : null;
+
                 resultList.push({
                     sketchId: data.sketchId,
                     displayName: data.displayName,
+                    builtBy: builtBy,
                     processedGrade,
                     safes,
                     height,
@@ -108,10 +112,11 @@
             resultList.sort((a, b) => a.sketchId - b.sketchId);
 
             resultList.forEach((item) => {
+                const builder = !item.builtBy ? "" : `<br/><small style="color: #aaaaaa; font-style: italic; font-size: 16px">${item.builtBy}</small>`;
                 contentTable.innerHTML +=
                     `<tr>
                     <td>${item.sketchId}</td>
-                    <td>${item.displayName}</td>
+                    <td>${item.displayName}${builder}</td>
                     <td>${item.processedGrade}</td>
                     <td>${item.safes}</td>
                     <td>${item.height}</td>
